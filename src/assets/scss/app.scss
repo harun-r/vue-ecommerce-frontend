@@ -9,3 +9,35 @@
 //Sections
 //layouts
 //Pages
+
+.product-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .product{
+    margin: 10px;
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    .cover{
+      width: 100%;
+      margin-bottom: 12px;
+      height: 200px;
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .content{
+      h3{
+        font-size: 18px;
+      }
+      p{
+        font-size: 15px;
+        color: #555;
+      }
+    }
+  }
+}
